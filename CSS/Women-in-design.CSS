@@ -9,6 +9,8 @@
     line-height: 1em;
 }
 
+
+
 /*css grids*/
 .grid{
     display: flex;
@@ -19,9 +21,11 @@
 .grid-col-third{
     flex-basis: 33.33%;
 }
-.gird-col-twothirds {
+.grid-col-twothirds{
     flex-basis: 66.66;
 }
+
+
 
 /* default styles for whole page */
 body {
@@ -166,4 +170,18 @@ figure.quote p{
                 main{
                     margin-bottom: 2.5rem;
                     }
+
+/* media queries */
+@media only screen and (max-width:1068px) {
+    .container {
+    margin: 0 24px 0 24px;
+    }
+    }
+    @media only screen and (max-width: 768px) {
+    }
+    @media only screen and (max-width: 600px) {
+    .container {
+    margin: 0 16px 0 16px;
+    }
+    }
                 
