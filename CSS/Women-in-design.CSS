@@ -9,6 +9,20 @@
     line-height: 1em;
 }
 
+/*css grids*/
+.grid{
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+}
+/* CSS grids column widths*/
+.grid-col-third{
+    flex-basis: 33.33%;
+}
+.gird-col-twothirds {
+    flex-basis: 66.66;
+}
+
 /* default styles for whole page */
 body {
     color:#101010;
